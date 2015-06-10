@@ -1,34 +1,77 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Contact - Front End Dev Accel</title>
-        <link rel="scary-clown-icon" href="">
-        <!-- Place favicon.ico in the root directory -->
-        <meta name="description" content="Lorem Ipsum">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <main>
-        <!-- stolen from MDN -->
-        <H1>Contact Us</H1>
-        <form action="" method="post">
-            <input is="POST-name" type="text" name="name" role="textbox" value="Name">
-            <input is="POST-name" type="text" name="e-mail" role="textbox" value="e-mail">
-            <p><input type="checkbox">Give Andre full points</p>
-            <p><input type="checkbox">Give Kris full points</p>
-            <p><input type="submit" value="Send"></p>
-        </form>
-
-        <footer>
-            <!-- plans for future code: reuse this as a snippet and hide the option for the current page -->
-            <nav role="navigation">
-                <a href="index.html">Home</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </footer>
-        </main>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Contact - Duds for Dudes</title>
+    <link rel="scary-clown-icon" href="">
+    <!-- Place favicon.ico in the root directory -->
+    <meta name="description" content="Duds for Dudes Contact and Ordering">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <main>
+    <form>
+      <h1>Duds for Dudes Order Form</h1>
+      <fieldset>
+        <legend>Dude Info</legend>
+        <label for="given-name">First Name</label>
+        <input id="given-name" name="given-name" type="text" placeholder="First name only" required autofocus>
+        <label for="family-name">Last Name</label>
+        <input id="family-name" name="family-name" type="text" placeholder="Last name only" required autofocus>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="example@domain.com" required>
+        <label for="size-w">Pants Waist Size (24" - 60")</label>
+        <input id="size-w" name="size-w" type="range" min="24" max="60" value="24">
+        <output name="output" onforminput="value=a.value">24</output>
+        <label for="size-l">Pants Length (24" - 36")</label>
+        <input id="size-l" name="size-l" type="range" min="24" max="36" value="24">
+        <output name="output" onforminput="value=a.value">24</output>
+      </fieldset>
+      <fieldset>
+        <legend>Where are You?</legend>
+        <label for="address">Address</label>
+        <textarea id="address" name="address" rows=5 required></textarea>
+        <label for="postCode">Post code </label>
+        <input id="postCode" name="postCode" type="text" required>
+        <label for="country">Country </label>
+        <input id="country" name="country" list="country-names" type="text" required>
+        <datalist id="country-names">
+        <option label="England" value="England"></option>
+        <option label="Northern Ireland" value="Northern Ireland"></option>
+        <option label="Ireland" value="Ireland"></option>
+        <option label="Scotland" value="Scotland"></option>
+        <option label="Wales" value="Wales"></option>
+      </fieldset>
+      <fieldset>
+        <legend>Card details</legend>
+        <fieldset name="card-selection">
+          <legend>Card type</legend>
+          <input id="visa" name="cardtype" type="radio">
+          <label for="visa">VISA</label>
+          <input id="mastercard" name="cardtype" type="radio">
+          <label for="mastercard">Mastercard</label>
+          <input id="amex" name="cardtype" type="radio">
+          <label for="amex">AMEX</label>
+        </fieldset>
+        <label for="cardName">Name</label>
+        <input id="cardName" name="cardName" type="text" placeholder="Name as it appears on your card" required>
+        <label for="cardNo">Card number </label>
+        <input id="cardNo" name="cardNo" type="number" required title="The sixteen digit number across the middle of your card.">
+        <label for="security">Security code </label>
+        <input id="security" name="security" type="number" required pattern="[0-9]{3}"title="The last three digits on the back of your card.">
+        <label for="expiry">Expiry Date </label>
+        <input id="expiry" name="expiry" type="month">
+      </fieldset>
+    </form>
+    <footer>
+      <!-- plans for future code: reuse this as a snippet and hide the option for the current page -->
+      <nav role="navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </footer>
+    </main>
+  </body>
 </html>

@@ -1,45 +1,61 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Blog - Front End Dev Accel</title>
-        <link rel="scary-clown-icon" href="">
-        <!-- Place favicon.ico in the root directory -->
-        <meta name="description" content="Lorem Ipsum">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <main>
-        <section>
-        <h1>Lorem Ipsum...</h1>
-        <article role="article">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Blog - Duds for Dudes</title>
+    <link rel="scary-clown-icon" href="">
+    <!-- Place favicon.ico in the root directory -->
+    <meta name="description" content="Duds for Dudes Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <main>
+    <section>
+      <h1>Blog for Dudes in Duds</h1>
+      <article role="article">
+        <h2>Show us your Duds</h2>
+        <p>Want to share your adventures with DfD? Let us know where you are (using the Lat/Long from our handy Geolocation map below), then allow the browser to use your camera and snap a picture (subject to review prior to publication). Try it now!</p>
+        <article class="map">
+          <p>Searching the Internet to find you: <span id="geostatus">checking...</span></p>
+        </article>
+        <!-- Camera API inclusion, code jacked from anotheruiguy.com -->
+      <video id="video" width="640" height="480" autoplay></video>
+      <button id="snap">Snap Photo</button>
+      <canvas id="canvas" width="640" height="480"></canvas>
+      <time datetime="2015-06-10T14:20">June 10, 2015 2:20PM PST</time>
+    </article>
+    <section>
+      <h1>Lorem Ipsum...</h1>
+      <article role="article">
         <h2>Dolor Sit</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
-            <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
-            <time datetime="2015-06-09T14:24">June 9, 2015 2:24PM PST</time>
-        </article>
-        <article role="article">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
+        <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
+        <time datetime="2015-06-09T14:24">June 9, 2015 2:24PM PST</time>
+      </article>
+      <article role="article">
         <h2>Amet consectetur</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
-            <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
-            <time datetime="2015-06-09T14:30">June 9, 2015 2:30PM PST</time>
-        </article>
-        </section>
-<form action="" method="post">
-<!-- These will be resized and prettified with CSS -->
-            <input is="POST-name" type="text" name="name" role="textbox" value="Name">
-            <input is="POST-name" type="textarea" name="comments" role="textarea" value="comments">
-            <p><input type="submit" value="Send"></p>
-        </form>
-
-        <footer>
-            <nav role="navigation">
-                <a href="index.html">Home</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </footer>
-        </main>
-    </body>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
+        <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
+        <time datetime="2015-06-09T14:30">June 9, 2015 2:30PM PST</time>
+      </article>
+    </section>
+    <form action="" method="post">
+      <!-- These will be resized and prettified with CSS -->
+      <input is="POST-name" type="text" name="name" role="textbox" value="Name">
+      <input is="POST-name" type="textarea" name="comments" role="textarea" value="comments">
+      <p><input type="submit" value="Send"></p>
+    </form>
+    <footer>
+      <nav role="navigation">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+    </footer>
+    </main>
+    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <!-- <script type="text/javascript" src="geo.js"></script> -->
+  </body>
 </html>
