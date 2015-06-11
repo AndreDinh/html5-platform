@@ -19,8 +19,8 @@ function success(position) {
   // Adds ID to the new div
   mapcanvas.id = 'mapcanvas';
   // sets width and height
-  mapcanvas.style.height = '600px';
-  mapcanvas.style.width = '1000px';
+  mapcanvas.style.height = '200px';
+  mapcanvas.style.width = '400px';
 
 
   // Adds the new block element as the last thing within the article block
@@ -68,6 +68,7 @@ if (navigator.geolocation) {
 }
 
 // Code stolen smoothly from anotheruiguy.com
+// this is the camera API
 // Put event listeners into place
 window.addEventListener("DOMContentLoaded", function() {
   // Grab elements, create settings, etc.
@@ -98,6 +99,6 @@ window.addEventListener("DOMContentLoaded", function() {
     }, errBack);
   }
 document.getElementById("snap").addEventListener("click", function() {
-  context.drawImage(video, 0, 0, 640, 480);
+  context.drawImage(video, 0, 0, 320, 240);
 });
 }, false);
