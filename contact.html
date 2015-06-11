@@ -8,11 +8,18 @@
     <!-- Place favicon.ico in the root directory -->
     <meta name="description" content="Duds for Dudes Contact and Ordering">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styling.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+    <header class="container">
+      <h1>Duds for Dudes Order Form</h1>
+      <nav class="navHead">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
     <main>
     <form>
-      <h1>Duds for Dudes Order Form</h1>
       <fieldset>
         <legend>Dude Info</legend>
         <label for="given-name">First Name</label>
@@ -64,14 +71,10 @@
         <input id="expiry" name="expiry" type="month">
       </fieldset>
     </form>
-    <footer>
-      <!-- plans for future code: reuse this as a snippet and hide the option for the current page -->
-      <nav role="navigation">
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact Us</a>
-      </nav>
-    </footer>
+    <footer class="container">
+      <p>Duds for Duddes &copy;2015</p>
+  </footer>
     </main>
   </body>
 </html>
+

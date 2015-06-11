@@ -10,16 +10,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <header class="container">
+      <h1>Duds for Dudes</h1>
+      <nav class="navHead">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
     <main>
     <section>
-      <h1>Blog for Dudes in Duds</h1>
       <article role="article">
         <h2>Show us your Duds</h2>
         <p>Want to share your adventures with DfD? Let us know where you are (using the Lat/Long from our handy Geolocation map below), then allow the browser to use your camera and snap a picture (subject to review prior to publication). Try it now!</p>
         <section>
-          <article class="map">
-            <p>Searching the Internet to find you: <span id="geostatus">checking...</span></p>
-          </article>
+          <p>Searching the Internet to find you: <span id="geostatus">checking...</span></p>
+          <section class="container map">
+          <section class="container">
           <!-- Camera API inclusion, code jacked from anotheruiguy.com -->
           <article>
             <section class="container">
@@ -29,7 +35,8 @@
           <button for="video" id="snap">Snap Photo</button>
           <time for="video" datetime="2015-06-10T14:20">June 10, 2015 2:20PM PST</time>
         </article>
-      </article>
+      </section>
+    </section>
     </section>
   </section>
   <section>
@@ -53,12 +60,8 @@
     <input is="POST-name" type="textarea" name="comments" role="textarea" value="comments">
     <p><input type="submit" value="Send"></p>
   </form>
-  <footer>
-    <nav role="navigation">
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
+  <footer class="container">
+      <a id="bottom" href="contact.html">Contact Us</a>
   </footer>
   </main>
   <script type="text/javascript" src="./scripts.js"></script>
@@ -67,3 +70,4 @@
   <!-- <script type="text/javascript" src="geo.js"></script> -->
 </body>
 </html>
+

@@ -1,75 +1,88 @@
+/* base */
 /*Font ideas from http://3.7designs.co/blog/2008/06/10-examples-of-beautiful-css-typography-and-how-they-did-it/*/
+/**/
 h1{
-  font-size: 51px;
+font-size: 51px;
+font-family: 'Alegreya', serif;
+margin:10px;
 }
 h2{
-  color: #e88e5d;
-  font-style: bold;
-  font-family: Georgia,serif;
+color: #e88e5d;
+font-style: bold;
+font-family: Georgia,serif;
 }
-body{
-  font-family: Gill Sans, Verdana;
+h3{
+text-align: center;
 }
-p{
-  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 14px;
-  margin-top: -.5em; color: #666;
-
+header{
+background: linear-gradient(to left, rgb(0,51,204) , rgb(102,102,255));
+height: 100px;
 }
-time{
-  color:gray;
-  font-size: 10px;
+.navHead{
+margin: 25px 0px;
 }
-
-/*video{
-
-  overflow:auto;
-  clear:both;
-}*/
-/*canvas{
-
-  overflow: auto;
-  float: right;
-}*/
-
-.container {
-  display:flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
-
-.map {
-  float: left;
-}
-
 a{
 
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-/*  font-family: cursive;*/
-  color: #e88e5d;
-  font-size: 32px;
-  background: #eaebd3;
-  border: 10px;
-  padding: 3px 10px 5px 10px;
-  text-decoration: none;
+background: #009dff;
+font-size: 32px;
 
+border: 10px;
+padding: 3px 10px 5px 10px;
+text-decoration: none;
+}
 a:hover{
-  background: #009dff;
-  text-decoration: none;
+background: #eaebd3;
+text-decoration: none;
 }
+body{
+font-family: Gill Sans, Verdana;
+}
+p{
+font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+font-size: 14px;
+margin-top: -.5em; color: #666;
+}
+time{
+color:gray;
+font-size: 10px;
+}
+/**/
+/* main */
+/**/
+.container{
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+iframe{
+display:block;
+width: 420px;
+height: 315px;
+margin: 0 auto;
+background-color: #777;
+}
+/**/
+/* Footer */
+/**/
+#bottom{
+background-color: transparent;
+text-align: right;
+}
+footer{
+padding: 25px;
+}
+/**/
+/* Form */
 /*http://jsbin.com/ketad/2/embed?html,css,output*/
+/**/
 label {
-  display: block;
+display: block;
 }
-
 input:not([type=radio]), textarea {
-  width: 100%;
+width: 100%;
 }
-
 [name=card-selection] label {
-  display: inline-block;
+display: inline-block;
 }
-
+/**/
