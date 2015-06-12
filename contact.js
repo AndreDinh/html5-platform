@@ -34,7 +34,7 @@ $(document).ready(function() {
     }
     init();
 });
-$('.stored').keyup(function() {
+$('.stored').change(function() {
     localStorage[$(this).attr('name')] = $(this).val();
 });
 $('#localStorageTest').submit(function() {

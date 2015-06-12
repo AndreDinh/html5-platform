@@ -1,99 +1,100 @@
 /* base */
 /*Font ideas from http://3.7designs.co/blog/2008/06/10-examples-of-beautiful-css-typography-and-how-they-did-it/*/
 h1{
-font-size: 51px;
-font-family: 'Alegreya', serif;
-margin:10px;
+  font-size: 51px;
+  font-family: 'Alegreya', serif;
+  margin:10px;
 }
 h2{
-color: #e88e5d;
-font-style: bold;
-font-family: Georgia,serif;
-text-align: left;
-margin-top: 0px;
+  color: #e88e5d;
+  font-style: bold;
+  font-family: Georgia,serif;
+  text-align: left;
+  margin-top: 0px;
 }
 h3{
-text-align: center;
+  text-align: center;
 }
 header{
-background: linear-gradient(to left, rgb(0,51,204) , rgb(102,102,255));
-height: 100px;
+  background: linear-gradient(to left, rgb(0,51,204) , rgb(102,102,255));
+  height: 100px;
+  -webkit-transition-property: width;
 }
 .navHead{
-margin: 25px 0px;
+  margin: 25px 0px;
 }
 a{
-font-size: 30px;
-border: 10px;
-padding: 3px 10px 5px 10px;
-text-decoration: none;
-color: white;
+  font-size: 30px;
+  border: 10px;
+  padding: 3px 10px 5px 10px;
+  text-decoration: none;
+  color: white;
 }
 a:hover{
-text-decoration: none;
-border-bottom: 1px solid gray;
+  text-decoration: none;
+  border-bottom: 1px solid gray;
 }
 body{
-width: 800px;
-margin: 0 325px;
-font-family: Gill Sans, Verdana;
-background-image: url(./pantBg.jpg);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-position: center;
+  width: 800px;
+  margin: 0 325px;
+  font-family: Gill Sans, Verdana;
+  background-image: url(./pantBg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 p{
-width:500px;
-font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-font-size: 14px;
-margin-top: -.5em; color: #666;
+  width:500px;
+  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 14px;
+  margin-top: -.5em; color: #666;
 }
 time{
-color:gray;
-font-size: 10px;
+  color:gray;
+  font-size: 10px;
 }
 /* main */
 .comments{
-text-align: left;
+  text-align: left;
 }
 input{
-margin: 10px 0 0;
+  margin: 10px 0 0;
 }
 article:nth-child(even){
-background-color: rgba(10,223,216,0.5);
+  background-color: rgba(10,223,216,0.5);
 }
 .cameraMap{
-background-color: transparent;
+  background-color: transparent;
 }
 .container{
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 iframe{
-display:block;
-width: 420px;
-height: 315px;
-margin: 0 auto;
-background-color: #777;
+  display:block;
+  width: 420px;
+  height: 315px;
+  margin: 0 auto;
+  background-color: #777;
 }
 /* Footer */
 #bottom{
-color: black;
-text-align: right;
+  color: black;
+  text-align: right;
 }
 footer{
-padding: 25px;
+  padding: 25px;
 }
 /* Form */
 /*http://jsbin.com/ketad/2/embed?html,css,output*/
 label {
-display: block;
+  display: block;
 }
 input:not([type=radio]), textarea {
-width: 100%;
+  width: 100%;
 }
 [name=card-selection] label {
-display: inline-block;
+  display: inline-block;
 }
