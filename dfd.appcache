@@ -1,0 +1,10 @@
+CACHE MANIFEST
+#2015-Jun-12: v0.1
+
+#primary needs
+CACHE:
+index.html
+blog.html
+base.css
+styling.css
+scripts.js
