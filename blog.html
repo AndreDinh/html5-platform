@@ -1,58 +1,68 @@
 <!doctype html>
 <html class="no-js" lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Blog - Duds for Dudes</title>
-    <link rel="scary-clown-icon" href="">
-    <!-- Place favicon.ico in the root directory -->
-    <meta name="description" content="Duds for Dudes Blog">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styling.css" type="text/css" rel="stylesheet" />
-    <link href='http://fonts.googleapis.com/css?family=Alegreya:900' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <header class="container">
-      <h1>Duds for Dudes</h1>
-      <nav class="navHead">
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-      </nav>
-    </header>
-    <main>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Blog - Duds for Dudes</title>
+  <link rel="scary-clown-icon" href="">
+  <!-- Place favicon.ico in the root directory -->
+  <meta name="description" content="Duds for Dudes Blog">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="styling.css" type="text/css" rel="stylesheet" />
+  <link href='http://fonts.googleapis.com/css?family=Alegreya:900' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header class="container">
+    <h1>Duds for Dudes</h1>
+    <nav class="navHead">
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <article role="article" class="cameraMap">
+        <h2>Show us your Duds</h2>
+        <p>Want to share your adventures with DfD? Let us know where you are (using the Lat/Long from our handy Geolocation map below), then allow the browser to use your camera and snap a picture (subject to review prior to publication). Try it now!</p>
+      </article>
       <section>
-        <article role="article" class="cameraMap">
-          <h2>Show us your Duds</h2>
-          <p>Want to share your adventures with DfD? Let us know where you are (using the Lat/Long from our handy Geolocation map below), then allow the browser to use your camera and snap a picture (subject to review prior to publication). Try it now!</p>
-        </article>
-        <section>
-          <p>Searching the Internet to find you: <span id="geostatus">checking...</span></p>
-          <section class="container map">
-            <section class="container">
-              <!-- Camera API inclusion, code jacked from anotheruiguy.com -->
-              <article>
-                <div class="container">
-                  <video id="video" width="320" height="240" autoplay></video>
-                  <canvas id="canvas" width="320" height="240"></canvas>
-                </div>
-                <button for="video" id="snap">Snap Photo</button>
-                <time for="video" datetime="2015-06-10T14:20">June 10, 2015 2:20PM PST</time>
-              </article>
-            </section>
+        <p>Searching the Internet to find you:
+          <span id="geostatus">checking...</span>
+        </p>
+        <section class="container map">
+          <section class="container">
+            <!-- Camera API inclusion, code jacked from anotheruiguy.com -->
+            <article>
+              <div class="container">
+                <video id="video" width="320" height="240" autoplay></video>
+                <canvas id="canvas" width="320" height="240"></canvas>
+              </div>
+              <button for="video" id="snap">Snap Photo</button>
+              <time for="video" datetime="2015-06-10T14:20">June 10, 2015 2:20PM PST</time>
+            </article>
           </section>
         </section>
+      </section>
       <section>
-      <!-- <h1>Lorem Ipsum...</h1> -->
+        <!-- <h1>Lorem Ipsum...</h1> -->
         <article role="article">
           <h2>Dolor Sit</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
-          <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque
+            eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
+          <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac
+            dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
           <time datetime="2015-06-09T14:24">June 9, 2015 2:24PM PST</time>
         </article>
         <article role="article">
           <h2>Amet consectetur</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
-          <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at lacus bibendum, tempus turpis at, blandit justo. Vestibulum tincidunt sodales ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Cras mollis fermentum malesuada. Mauris porta lectus ipsum, nec bibendum nunc feugiat quis. Proin imperdiet interdum malesuada. Morbi lectus ipsum, eleifend quis ultricies tristique, consectetur ut nibh. Etiam a ipsum purus. Etiam cursus neque
+            eget vestibulum sollicitudin. Cras rutrum pellentesque iaculis.</p>
+          <p>Etiam mi orci, vulputate at elit ac, posuere varius diam. Donec condimentum, est non porttitor dapibus, magna nibh aliquet enim, vitae pretium dolor est ac ante. Nam vitae porta magna. Morbi a purus orci. Vestibulum ut ultrices lorem. Nam ac
+            dolor vel odio mattis efficitur. Duis tempor tellus ut ex rutrum, a dictum ex commodo.</p>
           <time datetime="2015-06-09T14:30">June 9, 2015 2:30PM PST</time>
         </article>
       </section>
@@ -61,14 +71,17 @@
         <!-- These will be resized and prettified with CSS -->
         <input is="POST-name" type="text" name="name" role="textbox" value="Name">
         <input is="POST-name" type="textarea" name="comments" role="textarea" value="comments">
-        <p><input type="submit" value="Send"></p>
+        <p>
+          <input type="submit" value="Send">
+        </p>
       </form>
       <footer class="container">
         <a id="bottom" href="contact.html">Store</a>
       </footer>
-    </main>
-    <script type="text/javascript" src="./scripts.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <!-- <script type="text/javascript" src="geo.js"></script> -->
-  </body>
+  </main>
+  <script type="text/javascript" src="./scripts.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <!-- <script type="text/javascript" src="geo.js"></script> -->
+</body>
+
 </html>
