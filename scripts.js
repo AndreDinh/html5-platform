@@ -1,5 +1,7 @@
-// Stolen completely from anotheruiguy.com
-// Primary function for the Geo location app
+// geolocation
+// cribbed from anotheruiguy
+
+
 function success(position) {
   // create a simple variable for the ID
   var s = document.querySelector('#geostatus');
@@ -28,6 +30,7 @@ function success(position) {
 
   // creates a new variable 'latlng' off of the google maps object
   var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+
 
   // create new variable that contains options in key:value pairs
   var myOptions = {
@@ -67,7 +70,8 @@ if (navigator.geolocation) {
   error('not supported');
 }
 
-// Code stolen smoothly from anotheruiguy.com
+
+// // Code stolen smoothly from anotheruiguy.com
 // this is the camera API
 // Put event listeners into place
 window.addEventListener("DOMContentLoaded", function() {
